@@ -52,10 +52,10 @@ prerequisite.
 1. From your terminal, inside the "dogwalker" directory, add a [remote](https://help.github.com/articles/adding-a-remote/) repo 
    * `git remote add origin https://github.com/your_github_user/dogwalker.git`
    * `git remote -v` shows it's been added
-1. Create a .gitignore file as a placeholder
+1. Create placeholders for standard files to include in a repo.
    * `touch .gitignore`
-1. Create a README file as a placeholder
    * `touch README.md`
+   * `touch LICENSE`
 1. Add all files to git staging, enter commit message and push to remote
    * `git add .`
    * `git commit -m "Initial commit"`

@@ -9,7 +9,10 @@ to just write Python if you're going to take a job as an engineer. You need to
 understand how to implement things yourself instead of only following a very predetermined format that a good framework has implemented.
 
 The other purpose of this tutorial is to document all the ancillary steps that sometimes get overlooked. It is written from the perspective of a developer
-using a Mac running Sierra, with a basic level of comfort around the terminal. 
+using a Mac running Sierra, with a basic level of comfort around the terminal.
+It also assumes that you know how to use Git, it is a very critical skill to
+have if you are going to work with other developers. Learning Git is outside
+the scope of this tutorial. 
 
 ## Writing Markdown
 
@@ -47,4 +50,13 @@ commits from your mac using ssh keys. This [Github Article](https://help.github.
 prerequisite.
 
 1. From your terminal, inside the "dogwalker" directory, add a [remote](https://help.github.com/articles/adding-a-remote/) repo 
-   1. `git remote add origin https://github.com/manishapme/dogwalker
+   * `git remote add origin https://github.com/your_github_user/dogwalker.git`
+   * `git remote -v` shows it's been added
+1. Create a .gitignore file as a placeholder
+   * `touch .gitignore`
+1. Create a README file as a placeholder
+   * `touch README.md`
+1. Add all files to git staging, enter commit message and push to remote
+   * `git add .`
+   * `git commit -m "Initial commit"`
+   * `git push origin master`
